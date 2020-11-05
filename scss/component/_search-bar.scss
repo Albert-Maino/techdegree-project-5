@@ -3,19 +3,18 @@
 /* ============================================= */
 
 #search {
+    display: flex;
+    width: 60%;
+    justify-items: center;
     border: solid $border-color 2px;
     border-radius: 5px;
-    max-width: 80%;
     height: 40px;
-    margin: 30px;
+    margin: 20px auto;
+    padding: 20px;
     background-color: $secondary;
     &:active, &:hover {
         border: solid black 1px;
         transition: 2s ease-in;
     }
 }
-.input {
-    @media (min-width: $bp1) {
-        max-width: 80%;
-    }
-}
+

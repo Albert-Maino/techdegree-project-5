@@ -9,9 +9,7 @@
     box-sizing: border-box;
   }
 
-  body {
-    margin: auto;
-    @media (min-width: $bp1) {
-      max-width: 80%;
-    }
-  }
+body {
+  max-width: 80%;
+  margin: auto;
+}

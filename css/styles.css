@@ -345,11 +345,11 @@ template {
 /* ============================================= */
 * {
   font-family: 'Times New Roman', 'sans-serif';
-  background-color: whitesmoke;
   box-sizing: border-box;
 }
 
 body {
+  background-color: whitesmoke;
   max-width: 80%;
   margin: auto;
 }
@@ -379,18 +379,18 @@ img {
 #search {
   display: flex;
   width: 60%;
+  max-height: 40px;
   justify-items: center;
   border: solid #ebebeb 2px;
   border-radius: 5px;
-  height: 40px;
   margin: 20px auto;
   padding: 20px;
   background-color: #e0e0e0;
 }
 
-#search:active, #search:hover {
-  border: solid black 1px;
-  transition: 2s ease-in;
+#search:hover {
+  background-color: #dedede;
+  transition: 1s ease-in;
 }
 
 /*!

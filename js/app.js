@@ -1,2 +1,2 @@
-baguetteBox.run(".gallery");
+baguetteBox.run(".grid");
 mySearchFilter.run(".search");

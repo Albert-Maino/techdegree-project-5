@@ -5,16 +5,16 @@
 #search {
     display: flex;
     width: 60%;
+    max-height: 40px;
     justify-items: center;
     border: solid $border-color 2px;
     border-radius: 5px;
-    height: 40px;
     margin: 20px auto;
     padding: 20px;
     background-color: $secondary;
-    &:active, &:hover {
-        border: solid black 1px;
-        transition: 2s ease-in;
+    &:hover {
+        background-color: darken($border-color, 5%);
+        transition: 1s ease-in;
     }
 }
 

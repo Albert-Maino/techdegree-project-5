@@ -1,4 +1,4 @@
-
+document.getElementById('search').addEventListener("keyup", filter)
 
 function filter(){
     const searchFilter = document.getElementById('search');

@@ -2,7 +2,7 @@ document.getElementById('search').addEventListener("keyup", filter)
 
 function filter(){
     const searchFilter = document.getElementById('search');
-    const text = input.value.toLowerCase();
+    const text = searchFilter.value.toLowerCase();
     const images = document.getElementsByTagName('img');
 
     for ( let i = 0; i< images.length; i++ ) {
